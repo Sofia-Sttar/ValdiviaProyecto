@@ -1,0 +1,124 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ------------------------
+# OS / system files
+# ------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------
+# Node / package managers
+# ------------------------
+node_modules/
+**/node_modules/
+
+# Yarn Plug'n'Play and Yarn metadata
+.pnp
+.pnp.js
+.pnp.cjs
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state
+
+# pnpm
+.pnp-debug.log*
+
+# ------------------------
+# Build / output folders
+# ------------------------
+.next/
+out/
+build/
+dist/
+/.build
+
+# Next/React / frontend specific
+.vercel/
+.netlify/
+/.firebase
+
+# ------------------------
+# Logs
+# ------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------
+# Environment / secrets
+# ------------------------
+# Ignore environment files (allow an example file to be committed)
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# ------------------------
+# Testing / coverage
+# ------------------------
+coverage/
+.nyc_output/
+
+# ------------------------
+# Editor / IDE
+# ------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.iml
+.history/
+
+# ------------------------
+# Caches and temp files
+# ------------------------
+.cache/
+.cache-loader/
+.parcel-cache/
+.vite/
+.turbo/
+.eslintcache
+*.tgz
+
+# ------------------------
+# TypeScript
+# ------------------------
+*.tsbuildinfo
+next-env.d.ts
+
+# ------------------------
+# Certificates, keys and sensitive files
+# ------------------------
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ------------------------
+# Python (if any back-end uses Python)
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.envs/
+.venv/
